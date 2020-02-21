@@ -84,6 +84,7 @@ public class ListaDoble {
         } catch (Exception ex) {
             Logger.getLogger(ListaDoble.class.getName()).log(Level.SEVERE, null, ex);
         }
+        System.out.println("Práctica presentada por:\n Juan Diego Londoño Chavarría");
     }
 
     static void buscarEstudiante(DoublyLinkedList<Estudiante> estudiantes) {
